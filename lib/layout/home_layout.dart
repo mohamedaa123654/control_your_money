@@ -53,7 +53,7 @@ class HomeLayout extends StatelessWidget {
                     width: double.infinity,
                     child: AlertDialog(
                         backgroundColor: AppCubit.get(context).isDark
-                            ? ColorManager.gray
+                            ? ColorManager.grey
                             : ColorManager.white,
                         title: const Center(child: Text('Add Your Amount')),
                         content: Column(
